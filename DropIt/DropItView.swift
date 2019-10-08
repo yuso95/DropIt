@@ -180,7 +180,7 @@ class DropItView: NamedBezierPathsView, UIDynamicAnimatorDelegate {
     
     // Mark: - GestureRecognizer
     
-    func grabDrop(_ recognizer: UIPanGestureRecognizer) {
+    @objc func grabDrop(_ recognizer: UIPanGestureRecognizer) {
         
         let gesturePoint = recognizer.location(in: self)
         

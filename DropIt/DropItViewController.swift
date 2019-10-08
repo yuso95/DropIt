@@ -19,7 +19,7 @@ class DropItViewController: UIViewController {
         }
     }
     
-    func addDrop(_ recognizer: UITapGestureRecognizer) {
+    @objc func addDrop(_ recognizer: UITapGestureRecognizer) {
         
         if recognizer.state == .ended {
             
